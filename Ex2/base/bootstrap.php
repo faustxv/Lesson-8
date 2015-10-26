@@ -3,7 +3,7 @@
 	ob_start();
 	// Початок або продовження сесії.
 	session_start();
-	//Підключення бази даних, батьківських класів та роутера
+	//Підключення бази даних та батьківських класів
 	require_once 'base/db.php';
 	require_once 'base/model.php';
 	require_once 'base/view.php';

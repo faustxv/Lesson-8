@@ -17,4 +17,6 @@ Installation:
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 ```
 
-3. Configure db_name, db_user and db_pass values only in the /base/db.php file.
+3. Copy /base/db.example.php file to /base/db.php file.
+
+4. Configure db_name, db_user and db_pass values only in the /base/db.php file.

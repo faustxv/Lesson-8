@@ -3,7 +3,7 @@
 
 		function __construct()
 		{
-			$this->model = new Model_main();
+			$this->model = new Model_Main();
 			$this->view = new View();
 		}
 		
